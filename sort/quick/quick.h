@@ -18,7 +18,7 @@ public:
 
    QuickSort(){
         for(int i=0;i<25;i++){
-            generate_data[i]=rand()%100;
+            generate_data[i]=rand()%50;
         }
         cout<<"general data sequence"<<endl;
         for(int i=0;i<25;i++)

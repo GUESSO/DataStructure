@@ -12,7 +12,7 @@ void QuickSort::swap(int* a,int* b){
 int QuickSort::iteration(int left, int right) {
     int* ptr = this->generate_data;
     int low = left;
-    int high = right;
+    int high = right+1;
     int key = ptr[low];
 //    Wrong method
 //    while(low<high){
